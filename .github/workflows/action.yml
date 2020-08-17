@@ -1,0 +1,10 @@
+name: Build, Validate and Deploy
+on:
+  pull_request: {}
+
+jobs:
+  main:
+    name: Build, Validate and Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
