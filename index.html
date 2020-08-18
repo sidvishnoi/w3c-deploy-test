@@ -10,8 +10,8 @@
       editors: [
         { name: "Your Name", url: "https://your-site.com" },
       ],
-      github: "sidvishnoi/w3c-deploy-test",
-      shortName: "w3c-deploy-test",
+      github: "w3c/manifest",
+      shortName: "manifest",
       xref: "web-platform",
     };
   </script>
@@ -26,9 +26,10 @@
   <section data-dfn-for="Foo">
     <h2>Start your spec!</h2>
     <pre class="idl">
+    [Exposed=Window]
     interface Foo {
-      attribute Bar bar;
-      void doTheFoo();
+      attribute DOMString bar;
+      undefined doTheFoo();
     };
     </pre>
     <p>The <dfn>Foo</dfn> interface represents a {{Foo}}.</p>
