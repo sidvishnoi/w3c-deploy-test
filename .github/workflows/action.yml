@@ -13,6 +13,6 @@ jobs:
       - uses: actions/checkout@v2
       - uses: sidvishnoi/w3c-deploy@main
         with:
-          type: bikeshed
+          type: respec
           validateLinks: false
           validateMarkup: false
