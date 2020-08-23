@@ -1,6 +1,9 @@
 name: Build, Validate and Deploy
 on:
   pull_request: {}
+  push:
+    branches:
+      - main
 
 jobs:
   main:
