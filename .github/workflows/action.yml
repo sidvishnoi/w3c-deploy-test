@@ -15,4 +15,4 @@ jobs:
         with:
           type: respec
           validateLinks: false
-          validateMarkup: false
+          validateMarkup: true
