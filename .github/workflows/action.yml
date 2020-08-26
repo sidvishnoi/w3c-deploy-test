@@ -14,5 +14,3 @@ jobs:
       - uses: sidvishnoi/w3c-deploy@main
         with:
           type: respec
-          validateLinks: false
-          validateMarkup: false
