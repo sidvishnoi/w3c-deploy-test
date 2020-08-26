@@ -11,8 +11,8 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
-      - uses: sidvishnoi/w3c-deploy@main
+      - uses: sidvishnoi/w3c-deploy@async-sh
         with:
           type: respec
           validateLinks: false
-          validateMarkup: true
+          validateMarkup: false
