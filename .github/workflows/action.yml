@@ -14,3 +14,7 @@ jobs:
       - uses: sidvishnoi/w3c-deploy@echidna
         with:
           type: respec
+          ECHIDNA_TOKEN: ECHIDNA__TOKEN
+          echidnaManifestURL: "https://w3c.github.io/manifest/ECHIDNA"
+          wgDecisionURL: "https://lists.w3.org/Archives/Public/public-webapps/2014JulSep/0627.html"
+          w3cNotificationEmails: sidvishnoi@gmail.com
