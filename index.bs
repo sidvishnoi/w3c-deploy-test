@@ -12,4 +12,4 @@ Abstract: A short description of your spec, one or two sentences.
 Introduction {#intro}
 =====================
 
-Introduction here, yep here.
+Introduction here, yep here. Go on, write it out!
