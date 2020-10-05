@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
-      - uses: sidvishnoi/spec-prod@main
+      - uses: sidvishnoi/spec-prod@set-env-is-deprecated
         with:
           TOOLCHAIN: bikeshed
           GH_PAGES_BRANCH: gh-pages
