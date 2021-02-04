@@ -11,8 +11,6 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
-      - uses: sidvishnoi/spec-prod@v1
+      - uses: sidvishnoi/spec-prod@c862c0bfd2697e9b8ff49d46157f9ff7162ce0d2
         with:
           TOOLCHAIN: respec
-          GH_PAGES_BRANCH: gh-pages
-          VALIDATE_MARKUP: false  
