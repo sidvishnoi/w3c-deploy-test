@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
-      - uses: w3c/spec-prod@cf8e82361e181676d2d32a660c13a1fa54608a8d
+      - uses: w3c/spec-prod@95f47a6a79bcb3d3442745f01f9ba22aa77a595c
         with:
           TOOLCHAIN: respec
           GH_PAGES_BRANCH: gh-pages 
