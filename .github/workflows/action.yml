@@ -11,6 +11,6 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
-      - uses: sidvishnoi/spec-prod@b4fa51596383989e981b103bb3b388d7d9064591
+      - uses: sidvishnoi/spec-prod@3ce7ba0cf9fe940733d88e83fc7bad0cdcb8bba4
         with:
           TOOLCHAIN: respec
