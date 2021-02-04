@@ -11,7 +11,11 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
-      - uses: w3c/spec-prod@97dab6a149a3add41fc2a9427fcf690a278033d6
+      - uses: w3c/spec-prod@echidna-tar
         with:
           TOOLCHAIN: respec
-          GH_PAGES_BRANCH: gh-pages
+          VALIDATE_LINKS: false
+          VALIDATE_MARKUP: false
+          W3C_ECHIDNA_TOKEN: ${{ secrets.ECHIDNA_TOKEN }}
+          W3C_WG_DECISION_URL: "https://lists.w3.org/Archives/Public/public-webapps/2014JulSep/0627.html"
+          W3C_MANIFEST_URL: "http://example.com" # unused
