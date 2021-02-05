@@ -13,8 +13,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: w3c/spec-prod@build-fail-flags
         with:
-          TOOLCHAIN: bikeshed
-          BUILD_FAIL_ON: fatal
+          TOOLCHAIN: respec
           VALIDATE_LINKS: false
           VALIDATE_MARKUP: false
           GH_PAGES_BRANCH: gh-pages

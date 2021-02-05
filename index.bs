@@ -6,6 +6,7 @@ Status: w3c/ED
 Group: whatever
 URL: https://sidvishnoi.github.io/w3c-deploy-test/
 Editor: Your Name, Your Company http://example.com/, your-email@example.com, http://example.com/
+Abstract: A short description of your spec, one or two sentences.
 </pre>
 
 Introduction {#intro}
