@@ -11,9 +11,10 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
-      - uses: w3c/spec-prod@d3056053cd12ebdbdb3fb79554a11d76b8fb5f15
+      - uses: w3c/spec-prod@build-fail-flags
         with:
           TOOLCHAIN: respec
+          BUILD_FAIL_ON: error
           VALIDATE_LINKS: false
           VALIDATE_MARKUP: false
           GH_PAGES_BRANCH: gh-pages
