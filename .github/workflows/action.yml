@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
-      - uses: w3c/spec-prod@dfe870e845ce2507513c859263789bcc62eb0d40
+      - uses: w3c/spec-prod@d3056053cd12ebdbdb3fb79554a11d76b8fb5f15
         with:
           TOOLCHAIN: respec
           VALIDATE_LINKS: false
