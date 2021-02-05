@@ -235,11 +235,11 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
   <section data-dfn-for="Foo" id="start-your-spec">
     <h2 id="x1-start-your-spec"><bdi class="secno">1. </bdi>Start your spec!!<a class="self-link" aria-label="§" href="#start-your-spec"></a></h2>
     <pre class="idl def" id="webidl-47642570"><span class="idlHeader"><a class="self-link" href="#webidl-47642570">WebIDL</a></span><span data-idl="" class="idlInterface" id="idl-def-foo" data-title="Foo">[<span class="extAttr"><a data-type="extended-attribute" href="https://heycam.github.io/webidl/#Exposed">Exposed</a>=<a data-type="interface" href="https://html.spec.whatwg.org/multipage/window-object.html#window">Window</a></span>]
-interface <a class="internalDFN idlID" data-link-type="interface" href="#dom-foo" id="ref-for-dom-foo-1"><code>Foo</code></a> {<span data-idl="" class="idlAttribute" id="idl-def-foo-bar" data-title="bar" data-dfn-for="Foo">
+interface <dfn data-export="" data-dfn-type="interface" id="dom-foo" data-idl="interface" data-title="Foo" data-dfn-for="Foo" class="idlID"><code>Foo</code></dfn> {<span data-idl="" class="idlAttribute" id="idl-def-foo-bar" data-title="bar" data-dfn-for="Foo">
   attribute<span class="idlType"> <a data-type="interface" href="https://heycam.github.io/webidl/#idl-DOMString">DOMString</a></span> <dfn data-export="" data-dfn-type="attribute" id="dom-foo-bar" data-idl="attribute" data-title="bar" data-dfn-for="Foo" data-type="DOMString" data-lt="bar" data-local-lt="Foo.bar" class="idlName"><code>bar</code></dfn>;</span><span data-idl="" class="idlMethod" id="idl-def-foo-dothefoo" data-title="doTheFoo" data-dfn-for="Foo"><span class="idlType">
   <a data-type="interface" href="https://heycam.github.io/webidl/#idl-undefined">undefined</a></span> <a class="internalDFN idlName" data-link-type="method" href="#dom-foo-dothefoo" id="ref-for-dom-foo-dothefoo-1"><code>doTheFoo</code></a>();</span>
 };</span></pre>
-    <p>The <dfn data-export="" data-dfn-type="interface" id="dom-foo" data-idl="interface" data-title="Foo" data-dfn-for=""><code>Foo</code></dfn> interface represents a <a data-link-type="idl" href="#dom-foo" class="internalDFN" id="ref-for-dom-foo-2"><code><code>Foo</code></code></a>.</p>
+    <p>The <dfn id="dfn-fooz">Fooz</dfn> interface represents a <a data-link-type="idl" href="#dom-foo" class="internalDFN" id="ref-for-dom-foo-1"><code><code>Foo</code></code></a>.</p>
     <p>
       The <dfn data-export="" data-dfn-type="method" id="dom-foo-dothefoo" data-idl="operation" data-title="doTheFoo()" data-dfn-for="Foo" data-type="undefined" data-lt="doTheFoo()" data-local-lt="Foo.doTheFoo|Foo.doTheFoo()|doTheFoo"><code>doTheFoo()</code></dfn> method does the foo. Call it by running
       <a data-link-type="idl" data-lt="doTheFoo()" href="#dom-foo-dothefoo" class="internalDFN" id="ref-for-dom-foo-dothefoo-2"><code><code>doTheFoo</code></code></a><code>()</code>.
@@ -255,7 +255,19 @@ interface <a class="internalDFN idlID" data-link-type="interface" href="#dom-foo
     <dl class="bibliography"><dt id="bib-html">[HTML]</dt><dd><a href="https://html.spec.whatwg.org/multipage/"><cite>HTML Standard</cite></a>. Anne van Kesteren; Domenic Denicola; Ian Hickson; Philip Jägenstedt; Simon Pieters.  WHATWG. Living Standard. URL: <a href="https://html.spec.whatwg.org/multipage/">https://html.spec.whatwg.org/multipage/</a></dd><dt id="bib-webidl">[webidl]</dt><dd><a href="https://heycam.github.io/webidl/"><cite>Web IDL</cite></a>. Boris Zbarsky.  W3C. 15 December 2016. W3C Editor's Draft. URL: <a href="https://heycam.github.io/webidl/">https://heycam.github.io/webidl/</a></dd></dl>
   </section></section><p role="navigation" id="back-to-top">
     <a href="#title"><abbr title="Back to Top">↑</abbr></a>
-  </p><aside class="dfn-panel" hidden="" id="dfn-panel-for-dom-foo-bar">
+  </p><aside class="dfn-panel" hidden="" id="dfn-panel-for-dom-foo">
+      <span class="caret"></span>
+      <div>
+        <a class="self-link" href="#dom-foo">Permalink</a>
+        <span class="marker dfn-exported" title="Definition can be referenced by other specifications">exported</span> 
+      </div>
+      <b>Referenced in:</b>
+      <ul>
+    <li>
+    <a href="#ref-for-dom-foo-1">1. Start your spec!!</a> 
+  </li>
+  </ul>
+    </aside><aside class="dfn-panel" hidden="" id="dfn-panel-for-dom-foo-bar">
       <span class="caret"></span>
       <div>
         <a class="self-link" href="#dom-foo-bar">Permalink</a>
@@ -265,18 +277,16 @@ interface <a class="internalDFN idlID" data-link-type="interface" href="#dom-foo
       <ul>
       <li>Not referenced in this document.</li>
     </ul>
-    </aside><aside class="dfn-panel" hidden="" id="dfn-panel-for-dom-foo">
+    </aside><aside class="dfn-panel" hidden="" id="dfn-panel-for-dfn-fooz">
       <span class="caret"></span>
       <div>
-        <a class="self-link" href="#dom-foo">Permalink</a>
-        <span class="marker dfn-exported" title="Definition can be referenced by other specifications">exported</span> <a class="marker idl-block" title="Jump to IDL declaration" href="#webidl-47642570">IDL</a>
+        <a class="self-link" href="#dfn-fooz">Permalink</a>
+         
       </div>
       <b>Referenced in:</b>
       <ul>
-    <li>
-    <a href="#ref-for-dom-foo-1">1. Start your spec!!</a> <a href="#ref-for-dom-foo-2">(2)</a> 
-  </li>
-  </ul>
+      <li>Not referenced in this document.</li>
+    </ul>
     </aside><aside class="dfn-panel" hidden="" id="dfn-panel-for-dom-foo-dothefoo">
       <span class="caret"></span>
       <div>
