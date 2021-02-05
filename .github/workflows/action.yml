@@ -14,7 +14,7 @@ jobs:
       - uses: w3c/spec-prod@build-fail-flags
         with:
           TOOLCHAIN: respec
-          BUILD_FAIL_ON: error
+          BUILD_FAIL_ON: fatal
           VALIDATE_LINKS: false
           VALIDATE_MARKUP: false
           GH_PAGES_BRANCH: gh-pages
