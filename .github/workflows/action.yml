@@ -13,16 +13,14 @@ jobs:
       - uses: actions/checkout@v2
       - uses: w3c/spec-prod@build_config_override
         with:
-          TOOLCHAIN: respec
+          TOOLCHAIN: bikeshed
           VALIDATE_LINKS: false
           VALIDATE_MARKUP: false
           GH_PAGES_BRANCH: gh-pages
           GH_PAGES_BUILD_OVERRIDE: |
-            github: sidvishnoi/w3c-deploy-test
+            Repository: sidvishnoi/w3c-deploy-test
           W3C_ECHIDNA_TOKEN: ${{ secrets.ECHIDNA_TOKEN }}
           W3C_BUILD_OVERRIDE: |
-            specStatus: WD
-            shortName: my-custom-shortname
-            previousMaturity: LC
-            previousPublishDate: 2020-05-01
+            status: w3c/WD
+            TR: https://www.w3.org/TR/mediastream-recording/
           W3C_WG_DECISION_URL: "https://lists.w3.org/Archives/Public/public-webapps/2014JulSep/0627.html"
