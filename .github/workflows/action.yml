@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
-      - uses: w3c/spec-prod@build_config_override
+      - uses: w3c/spec-prod@improve-logs
         with:
           TOOLCHAIN: respec
           VALIDATE_LINKS: false
