@@ -11,11 +11,11 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
-      - uses: w3c/spec-prod@main
+      - uses: w3c/spec-prod@http-server
         with:
           TOOLCHAIN: respec
-          VALIDATE_LINKS: true
-          VALIDATE_MARKUP: true
+          VALIDATE_LINKS: false
+          VALIDATE_MARKUP: false
           GH_PAGES_BRANCH: gh-pages
           GH_PAGES_BUILD_OVERRIDE: |
             specStatus: WD
