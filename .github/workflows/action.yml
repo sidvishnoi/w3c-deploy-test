@@ -11,10 +11,10 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
-      - uses: w3c/spec-prod@destination
+      - uses: w3c/spec-prod@main
         with:
           TOOLCHAIN: respec
-          DESTINATION: output/out.html
+          SOURCE: index.html
           VALIDATE_LINKS: false
           VALIDATE_MARKUP: true
           GH_PAGES_BRANCH: gh-pages
